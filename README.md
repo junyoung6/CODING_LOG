@@ -145,12 +145,32 @@ OSI 모델중 4계층 모델이 하는 역할에 대해서 서술하세요
 ROUTING PROTOCOL      정적 Routing - > Static
 
                                                            Default
-                                    동적 Routing
+                      동적 Routing
 
+                                    IGP --> Distance Vector   RIPv2
+                                         |
+                               AS       --> Link-State OSPF            
 
+                                    EGP
 ROUTE : 길/경로
 ROUTER : 경로안내장치
 ROUTING : 길 안내작업
+
+AS(Autonomous System) : 자치 시스템, 관리자가 관리하는 라우터의 집합(집단)
+IGP(Interior Gateway Protocol)
+EGP(Exterior Gateway Protocol)
+
+DISTANCE VERTOR :
+전체경로학스 -> 최적경로계산
+
+
+
+
+
+
+
+
+
 
 경로를 안내해주기위해서 사용되는 프로토콜
 
@@ -165,3 +185,6 @@ Service : - 제공하다
 WEB SERVICE
 하이퍼텍스트 형식의 문서파일을 제공해주는 서비스
 ```
+
+
+
