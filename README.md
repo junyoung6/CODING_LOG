@@ -161,9 +161,10 @@ IGP(Interior Gateway Protocol)
 EGP(Exterior Gateway Protocol)
 
 DISTANCE VERTOR :
-전체경로학스 -> 최적경로계산
+전체경로학습 -> 최적경로계산
 
-
+LINK STATE                               대역폭(BandWidth),부하(Load),지연(Delay),신뢰도(Reliability),최대전송단위(Maximum Transmission Unit)0
+1.전체경로 학습 -> 2 최적경로 산출           Serial : 10^8
 
 
 
