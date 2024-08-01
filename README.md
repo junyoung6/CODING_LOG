@@ -140,8 +140,6 @@ LINK STATE                               대역폭(BandWidth),부하(Load),지�
 
 
 
-
-
 경로를 안내해주기위해서 사용되는 프로토콜
 
 DNS SERVICE/ SYSTEM / SERVER
@@ -151,10 +149,5 @@ Domain : 영역
 Name : 이름
 Service : - 제공하다
 
-
 WEB SERVICE
 하이퍼텍스트 형식의 문서파일을 제공해주는 서비스
-
-
-
-
