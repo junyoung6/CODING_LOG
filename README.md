@@ -120,16 +120,7 @@ OSI 모델중 4계층 모델이 하는 역할에 대해서 서술하세요
 
 
 
-ROUTING PROTOCOL      정적 Routing - > Static
-
-                                                           Default
-                      동적 Routing
-
-                                    IGP --> Distance Vector   RIPv2
-                                         |
-                               AS       --> Link-State OSPF            
-
-                                    EGP
+ROUTING PROTOCOL     
 ROUTE : 길/경로
 ROUTER : 경로안내장치
 ROUTING : 길 안내작업
