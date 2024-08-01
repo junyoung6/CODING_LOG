@@ -48,9 +48,10 @@ SMTP: 이메일전송을 위한 프로토콜로, 이메일의 발송과 수신�
 ```
 OSI 7계층 TCP/IP 프로토콜 스택
 ---
+|-|
 |![osi-03](https://github.com/user-attachments/assets/82c9fc13-7350-4bd6-bd86-1b8ecb69b557)|
 \*애플리케이션 계층 (상위 계층): 1~4계층
-\*데이터 플로 계층 (하위 계층): 5~7 계층
+
 
 
 **Layer 물리계층**
