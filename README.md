@@ -56,6 +56,7 @@ Layer 물리계층
 -OSI 7계층에서 맨 밑에 위치
 -전송 매체의 물리적 인터페이스에 관한 사항 기술
 -하드웨어 시스템으로 구현되고, 개별 정보의 비트 교환 문제를 다룸.
+
 물리 계층 역할
 물리 계층은 실제 장치들을 연결하기 위해 필요한
 전기적, 물리적 세부 사항들을 정의
@@ -162,3 +163,14 @@ Service : - 제공하다
 
 WEB SERVICE
 하이퍼텍스트 형식의 문서파일을 제공해주는 서비스
+
+ProGram
+Pro: 앞으로.미리
+Gram : 쓰다, 적다
+
+HardWar :
+
+SofrWare : System SoftWare : WindowOS,Linux OS,,,
+           Application
+
+미들웨어 : 
