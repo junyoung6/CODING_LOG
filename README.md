@@ -57,11 +57,7 @@ OSI 7계층 TCP/IP 프로토콜 스택
 |네트워크 계층| 인터넷 |
 |데이터링크 계층| 네트워크 액세스|
 |물리 계층|네트워크 액세스|
-
-
-
-**Layer 물리계층**
-
+![osi-03](https://github.com/user-attachments/assets/166611d7-c685-4f68-a7d6-268fcf16538d) OSI 모델 TCP/IP 모델 첨부사진|
 
 물리 계층
 ---
