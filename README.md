@@ -191,5 +191,23 @@ SofrWare : System SoftWare : WindowOS,Linux OS,,,
 |[이클립스 다운로드](https://www.eclipse.org/downloads/)|
 |[톰캣 다운로드](https://tomcat.apache.org/download-90.cgi)|
 
+데이터베이스(Database)
+---
+```
+데이터베이스란? -> 데이터의 저장소
+
+DBMS(Database Management System,데이터베이스 관리시스템)란? -> 데이터 베이스를 운영하고 관리하는 소프트 웨어
+계층형,망형,관계형 DBMS 중 대부분의 DBMS가 테이블로 구성된 관계형 DBMS(RDMBS)형태로 사용됨.
+
+SQL(Strucyured Query Language)란? -> 구조화된 질의 언어라는 뜻으로 관계형 데이터베이스에서 사용되는 언어.
+표준 SQL을 배우면 대부분의 DBMS를 사용할 수 있음.
+```
+|다운로드 경로|
+|:---|
+|[MySQL COMMUNITY 설치](https://hongong.hanbit.co.kr/mysql-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%8F-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0mysql-community-8-0/)|
+
+
+
+
 
 
