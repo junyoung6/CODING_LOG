@@ -220,5 +220,43 @@ SQL(Strucyured Query Language)란? -> 구조화된 질의 언어라는 뜻으로
 
 
 
+mkdir /final
+
+cd /final
+touch 12 34 56
+
+touch -t 199901011200 34
+mkdir /back
+ls -ld /final /back
+cp /final/12 /final/56 /back
+ls -l /back
+
+cp -p /final/34 /back
+
+ls -l /etc/login.defs /etc/passwd /boot/grub/grub.cfg
+```
+1번
+mkdir /backup
+cp /etc/login.defs /etc/passwd /boot/grub/grub.cfg /backup
+ls -l /backup
+
+2번
+mkdir test
+cp ./grub.cfg test/grub
+cp ./login.defs test/login
+cp ./passwd test/pass
+
+3번
+touch /backup/test1 /backup/test/test2
+ls -l /backup
+ls -l test
+4번
+mkdir -p /home/test/c/d
+cp -rp /backup/test /home/test/c/d/linux
+
+5번
+cd /home
+cp /backup/gurb.cfg /backup/login.defs /backup/passwd /backup/test1 /home/test/c/d/linux
+
 
 
