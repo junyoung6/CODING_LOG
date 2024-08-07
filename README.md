@@ -61,11 +61,12 @@ SMTP: 이메일전송을 위한 프로토콜로, 이메일의 발송과 수신�
 네트워크망 제작시 사용되는 지침서
 네트워크망 이상발생시 문제해결에 사용되는 용도
 ```
-OSI 7계층 TCP/IP 프로토콜 스택
+*OSI 7계층 TCP/IP 프로토콜 스택*
+|OSI 7 LAYER|PHYSICAL LAYER|
+|:---:|:---:|
+|![1](https://github.com/user-attachments/assets/f6fa51ba-402f-42c4-8640-c84162b8578e)|![2](https://github.com/user-attachments/assets/178bcf0b-b093-495b-9d65-781caef8bb62)|
+
 ---
-
-![osi-03](https://github.com/user-attachments/assets/166611d7-c685-4f68-a7d6-268fcf16538d) OSI 모델 TCP/IP 모델 첨부사진|
-
 물리 계층(1계층)
 ---
 ```
@@ -147,6 +148,23 @@ OSI 모델중 4계층 모델이 하는 역할에 대해서 서술하세요
   - 빠른 요청과 응답이 필요한 실시간 응용에 적합
   - 여러 다수 지점에 전송
 ```
+* IPv4*
+```
+Bit(Binary Digit)
+아라비아숫자를 2진수로 변활 할때 표현되는 한자리
+Byte = 8bit의 한묶음
+```
+*IP주소 표현*
+
+|8bit|8bit|8bit|8bit|
+|:---:|:---:|:---:|:---:|
+|00000000|00000000|00000000|00000000|
+>한개당 1byte로 4개의 8bit가 모이면 4byte 된다
+
+*SUBNET MASK*
+>
+
+
 
 
 ROUTING PROTOCOL     
@@ -257,6 +275,22 @@ cp -rp /backup/test /home/test/c/d/linux
 5번
 cd /home
 cp /backup/gurb.cfg /backup/login.defs /backup/passwd /backup/test1 /home/test/c/d/linux
+```
+
+passwd
+ifconfig
+pwd
+cd위치변경
+ls 디렉토리 목록확인 
+mkdir 폴더 만들기
+touch 빈 파일만들기
+cp 파일복사
+mv 파일이동
+rm 삭제
+---
+cat.head.tail.more
+>
+vi
 
 
 
