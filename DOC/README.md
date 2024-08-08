@@ -59,9 +59,57 @@ alter 명령어
  column 수정 : alter table 테이블명 change column 기존컬럼명 변경컬럼명 변경자료형 제약조건
  column 삭제 : alter table 테이블명 drop 컬럼명
 
-   
+값삽입
+ mysql>select * from tbl_user; 
 
+ mysql>desc tbl_user;
+ +------------+--------------+------+-----+---------+-------+
+ | Field      | Type         | Null | Key | Default | Extra |
+ +------------+--------------+------+-----+---------+-------+
+ | user_id    | varchar(10)  | NO   | PRI | NULL    |       |
+ | user_name  | varchar(45)  | NO   |     | NULL    |       |
+ | user_phone | varchar(100) | NO   |     | NULL    |       |
+ +------------+--------------+------+-----+---------+-------+
+ myspl> insert into tsetdb.tbl_user(user_id,user_name,user_phone) values'user10','홍길동','010-222-33
+ myspl> insert into testdb.tbl_user values('user20','남길동','010-555-6666');
 
+ mysql> select * from tbl_user;
+ +---------+-----------+--------------+
+ | user_id | user_name | user_phone   |
+ +---------+-----------+--------------+
+ | user10  | 홍길동    | 010-222-3333 |
+ | user20  | 남길동    | 010-555-6666 |
+ +---------+-----------+--------------+
+ 2 rows in set (0.00 sec)
+
+ mysql> select user_id,user_name from tbl_user;
+ +---------+-----------+
+ | user_id | user_name |
+ +---------+-----------+
+ | user10  | 홍길동    |
+ | user20  | 남길동    |
+ +---------+-----------+
+ 2 rows in set (0.00 sec)
+
+값삭제
+ mysql> delete from tbl_user where user_id='user10';
+ Query OK, 1 row affected (0.00 sec)
+
+ mysql> select * from tbl_user;
+ +---------+-----------+--------------+
+ | user_id | user_name | user_phone   |
+ +---------+-----------+--------------+
+ | user20  | 철수      | 010-555-6666 |
+ +---------+-----------+--------------+
+ 1 row in set (0.00 sec)
+```
+
+*DCL*
+```
+사용자 계정 확인
+ use mysql;
+ show tab;es;
+ select user,host from user;
 
 
 
