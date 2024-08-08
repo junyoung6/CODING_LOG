@@ -251,56 +251,6 @@ BGP
 ```
 
 
-
-
-
-
-
-
-
-
-
-ROUTING PROTOCOL     
-ROUTE : 길/경로
-ROUTER : 경로안내장치
-ROUTING : 길 안내작업
-
-AS(Autonomous System) : 자치 시스템, 관리자가 관리하는 라우터의 집합(집단)
-IGP(Interior Gateway Protocol)
-EGP(Exterior Gateway Protocol)
-
-DISTANCE VERTOR :
-전체경로학습 -> 최적경로계산
-
-LINK STATE                               대역폭(BandWidth),부하(Load),지연(Delay),신뢰도(Reliability),최대전송단위(Maximum Transmission Unit)0
-1.전체경로 학습 -> 2 최적경로 산출           Serial : 10^8
-
-
-
-
-
-
-경로를 안내해주기위해서 사용되는 프로토콜
-
-DNS SERVICE/ SYSTEM / SERVER
-
-Domain Name Service/System/Server
-Domain : 영역
-Name : 이름
-Service : - 제공하다
-
-WEB SERVICE
-하이퍼텍스트 형식의 문서파일을 제공해주는 서비스
-
-ProGram
-Pro: 앞으로.미리
-Gram : 쓰다, 적다
-
-HardWar :
-
-SofrWare : System SoftWare : WindowOS,Linux OS,,,
-           Application
-
 미들웨어
 ---
 |-|
