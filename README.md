@@ -284,20 +284,5 @@ SQL(Strucyured Query Language)란? -> 구조화된 질의 언어라는 뜻으로
 
 ```
 
-passwd
-ifconfig
-pwd
-cd위치변경
-ls 디렉토리 목록확인 
-mkdir 폴더 만들기
-touch 빈 파일만들기
-cp 파일복사
-mv 파일이동
-rm 삭제
----
-cat.head.tail.more
->
-vi
-
 
 
