@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul{
+            margin : 0;
+            padding : 0; 
+            list-style:none;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .main-menu{
+            display:flex;
+            justify-content: space-between;
+
+            height:40px;
+        }
+        .main-menu>li{
+            border : 1px solid;
+            height:40px;
+            line-height:40px;
+            width:150px;
+            text-align:center;
+        }
+        .main-menu>li>a{
+            display:block;
+        }
+
+        .sub-menu{
+            display:none;
+        }
+
+        .sub-menu>li{
+            border : 1px solid;
+            margin : 2px 0;
+        }
+
+        .main-menu>li:hover .sub-menu{
+            display:block;
+            background-color: rosybrown;
+           
+        }
+        .main-menu>li:hover .sub-menu a{
+            color : white;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <!-- 자식요소 : '>' -->
+    <!-- div>ul>li -->
+    <!-- div>p>ul>li -->
+    <!-- 형제노드 : '+' -->
+    <!-- div>ul+ol -->
+    <!-- div>p+div>span -->
+    <!-- div>ul>li>a+ul>li>a -->
+    <!-- 상위태그 이동 : ^ -->
+    <!-- div>ul>li^p  -->
+    <!-- 반복처리 : * ,  문자열처리 {문자열} , 인덱스처리 : $ -->
+    <!-- div>ul>li*4 -->
+    <!-- div>ul>li*4>a{기본메뉴$} -->
+    <!-- div>ul>li*4>a{$.기본메뉴}+ul>li*3>a{$.서브메뉴} -->
+    
+    <!-- <div>
+        <ul class="main-menu">
+            <li>
+                <a href="">1.기본메뉴</a>
+                <ul class="sub-menu">
+                    <li><a href="">1.서브메뉴</a></li>
+                    <li><a href="">2.서브메뉴</a></li>
+                    <li><a href="">3.서브메뉴</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">2.기본메뉴</a>
+                <ul class="sub-menu">
+                    <li><a href="">1.서브메뉴</a></li>
+                    <li><a href="">2.서브메뉴</a></li>
+                    <li><a href="">3.서브메뉴</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">3.기본메뉴</a>
+                <ul class="sub-menu">
+                    <li><a href="">1.서브메뉴</a></li>
+                    <li><a href="">2.서브메뉴</a></li>
+                    <li><a href="">3.서브메뉴</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">4.기본메뉴</a>
+                <ul class="sub-menu">
+                    <li><a href="">1.서브메뉴</a></li>
+                    <li><a href="">2.서브메뉴</a></li>
+                    <li><a href="">3.서브메뉴</a></li>
+                </ul>
+            </li>
+        </ul>
+     </div> -->
+
+
+     <!-- 클래스 선택자 -->
+      <div class="items"></div>
+      <ul class="items"></ul>
+
+      <!-- ID 선택자 -->
+      <div id="slider"></div>
+
+      <!-- LAYOUT EMMET -->
+       <!-- .wrapper>header>.top-header+nav^main>section^footer -->
+      <div class="wrapper">
+        <header>
+            <div class="top-header"></div>
+            <nav></nav>
+        </header>
+        <main>
+            <section></section>
+        </main>
+        <footer></footer>
+      </div>
+
+      <!-- attr 추가 -->
+       <!-- div>ol[type="I"]>li*4{LIST_$} -->
+      <!-- div>ol[type="I" style="background-color:orange"]>li*4{LIST_$} -->
+
+      <!-- <div>
+        <ol type="I" style="background-color:orange">
+            <li>LIST_1</li>
+            <li>LIST_2</li>
+            <li>LIST_3</li>
+            <li>LIST_4</li>
+        </ol>
+      </div> -->
+
+      <!-- $@시작숫자 입력 -->
+      <!-- .wrapper>ul>li*4{TEXT_$@5} -->
+      <div class="wrapper">
+        <ul>
+            <li>TEXT_5</li>
+            <li>TEXT_6</li>
+            <li>TEXT_7</li>
+            <li>TEXT_8</li>
+        </ul>
+      </div>
+
+</body>
+</html>
